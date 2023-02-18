@@ -44,7 +44,11 @@ class Server:
         data = self.dataset()
         if start > len(data):
             return []
+<<<<<<< HEAD
         return data[start:end]
+=======
+        return data[start_point: end_point]
+>>>>>>> 3ccb3eb90590d65e01fe9b17cea6746bd914d1c2
 
     def get_hyper(self, page: int = 1, page_size: int = 10) -> Dict:
         """Retrieves information about a page.
