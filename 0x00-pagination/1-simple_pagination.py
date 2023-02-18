@@ -43,4 +43,3 @@ class Server:
         if start_point > len(data):
             return []
         return data[start_point:end_point]
-    
